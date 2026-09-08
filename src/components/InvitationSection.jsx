@@ -118,7 +118,7 @@ export default function InvitationSection({ onNext }) {
             transition={{ delay: 0.7 }}
             className="text-xl sm:text-2xl md:text-3xl font-rozha text-maroon-deep font-bold"
           >
-            कु. कुमार पिंपळे
+            कु. आरुष पिंपळे
           </motion.p>
         </div>
 
