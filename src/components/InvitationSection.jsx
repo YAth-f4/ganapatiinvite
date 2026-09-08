@@ -21,12 +21,12 @@ export default function InvitationSection({ onNext }) {
   };
 
   const addToCalendar = () => {
-    // September 14, 2024 Ganesh Chaturthi celebration
+    // September 14, 2026 Ganesh Chaturthi celebration
     const title = encodeURIComponent("श्री गणेश दर्शन - पिंपळे कुटुंब");
     const details = encodeURIComponent("आपणांस व आपल्या परिवारास गणेश दर्शनासाठी व महाप्रसादासाठी आग्रहाचे निमंत्रण!");
     const location = encodeURIComponent("राम कृष्ण गार्डन, फिलिया हॉस्पिटलच्या मागे, टेंबोडे रोड, पालघर पश्चिम");
     // Google Calendar URL format
-    const gCalUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${title}&details=${details}&location=${location}&dates=20240914T043000Z/20240915T163000Z`;
+    const gCalUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${title}&details=${details}&location=${location}&dates=20260914T043000Z/20260915T163000Z`;
     window.open(gCalUrl, '_blank');
   };
 
@@ -118,7 +118,7 @@ export default function InvitationSection({ onNext }) {
             transition={{ delay: 0.7 }}
             className="text-xl sm:text-2xl md:text-3xl font-rozha text-maroon-deep font-bold"
           >
-            श्री. आरुष पिंपळे
+            कु. कुमार पिंपळे
           </motion.p>
         </div>
 
@@ -153,7 +153,7 @@ export default function InvitationSection({ onNext }) {
                   दिनांक
                 </span>
                 <p className="text-base sm:text-lg font-bold font-rozha text-maroon-deep mt-0.5">
-                  १४ व १५ सप्टेंबर २०२४
+                  १४ व १५ सप्टेंबर २०२६
                 </p>
                 <p className="text-xs text-maroon-deep/70 font-body">
                   शनिवार व रविवार

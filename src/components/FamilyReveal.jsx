@@ -37,7 +37,7 @@ export default function FamilyReveal({ onNext }) {
     },
     {
       role: 'Son',
-      nameMarathi: 'श्री. आरुष पिंपळे',
+      nameMarathi: 'कु. कुमार पिंपळे',
       desc: 'बाप्पाचे आवडते मोदक घेऊन सज्ज',
       image: '/assets/child_aarush.jpg',
       step: 3,
