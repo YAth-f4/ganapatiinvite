@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream-ivory: #FFFDF9;
+  --color-cream-soft: #FAF6F0;
+  --color-blush-pink: #FDEEF2;
+  --color-maroon-deep: #550B20;
+  --color-wine-magenta: #821239;
+  --color-orchid-purple: #9A2C7F;
+  --color-gold-primary: #D4AF37;
+  --color-gold-light: #F7E9AD;
+  --color-gold-rich: #C59B27;
+  --color-gold-dark: #826315;
+
+  --font-rozha: 'Rozha One', serif;
+  --font-yatra: 'Yatra One', cursive;
+  --font-tiro: 'Tiro Devanagari Marathi', serif;
+  --font-cinzel: 'Cinzel', serif;
+  --font-body: 'Mukta', 'Poppins', sans-serif;
+}
+
+:root {
+  --cream-ivory: #FFFDF9;
+  --cream-soft: #FAF6F0;
+  --blush-pink: #FDEEF2;
+  --maroon-deep: #550B20;
+  --wine-magenta: #821239;
+  --orchid-purple: #9A2C7F;
+  --gold-primary: #D4AF37;
+  --gold-light: #F7E9AD;
+  --gold-rich: #C59B27;
+  --gold-dark: #826315;
+
+  font-family: 'Mukta', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: #550B20;
+  background-color: #FAF6F0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Typography Classes */
+.font-rozha { font-family: 'Rozha One', serif; }
+.font-yatra { font-family: 'Yatra One', cursive; }
+.font-tiro { font-family: 'Tiro Devanagari Marathi', serif; }
+.font-cinzel { font-family: 'Cinzel', serif; }
+.font-body { font-family: 'Mukta', 'Poppins', sans-serif; }
+
+/* Custom Fallback Color Classes */
+.bg-cream-ivory { background-color: #FFFDF9; }
+.bg-cream-soft { background-color: #FAF6F0; }
+.text-wine-magenta { color: #821239; }
+.text-maroon-deep { color: #550B20; }
+.text-gold-primary { color: #D4AF37; }
+.text-gold-light { color: #F7E9AD; }
+.text-gold-rich { color: #C59B27; }
+.border-gold-primary { border-color: #D4AF37; }
+
+/* Global reset & body background */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #FAF6F0;
+  background-image: 
+    radial-gradient(circle at 10% 15%, rgba(253, 238, 242, 0.7) 0%, transparent 45%),
+    radial-gradient(circle at 90% 85%, rgba(255, 245, 225, 0.8) 0%, transparent 50%),
+    radial-gradient(circle at 50% 50%, rgba(255, 253, 249, 0.95) 0%, rgba(250, 246, 240, 1) 100%);
+  background-attachment: fixed;
+}
+
+/* Smooth selection */
+::selection {
+  background: #821239;
+  color: #FFFDF9;
+}
+
+/* Music equalizer bar animations */
+@keyframes musicBar {
+  0%, 100% { height: 4px; }
+  50% { height: 16px; }
+}
+.animate-music-bar-1 {
+  animation: musicBar 0.8s ease-in-out infinite;
+}
+.animate-music-bar-2 {
+  animation: musicBar 1.2s ease-in-out infinite 0.2s;
+}
+.animate-music-bar-3 {
+  animation: musicBar 0.9s ease-in-out infinite 0.4s;
+}
+
+/* Soft pulse keyframes */
+@keyframes spinSlow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.animate-spin-slow {
+  animation: spinSlow 14s linear infinite;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF6F0;
+}
+::-webkit-scrollbar-thumb {
+  background: #D4AF37;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #821239;
+}
