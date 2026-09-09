@@ -29,7 +29,7 @@ export default function FamilyReveal({ onNext }) {
     },
     {
       role: 'Mother',
-      nameMarathi: 'श्रीमती. हर्षा पिंपळे',
+      nameMarathi: 'सौ. हर्षा पिंपळे',
       desc: 'शुभ दीप व मंगल फुले घेऊन उपस्थित',
       image: '/assets/mother_harsha.jpg',
       step: 2,

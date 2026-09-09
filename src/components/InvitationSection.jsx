@@ -110,7 +110,7 @@ export default function InvitationSection({ onNext }) {
             transition={{ delay: 0.5 }}
             className="text-xl sm:text-2xl md:text-3xl font-rozha text-maroon-deep font-bold"
           >
-            श्रीमती. हर्षा पिंपळे
+            सौ. हर्षा पिंपळे
           </motion.p>
           <motion.p
             initial={{ opacity: 0, y: 10 }}
