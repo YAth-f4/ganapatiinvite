@@ -156,7 +156,7 @@ export default function InvitationSection({ onNext }) {
                   १४ व १५ सप्टेंबर २०२६
                 </p>
                 <p className="text-xs text-maroon-deep/70 font-body">
-                  शनिवार व रविवार
+                  सोमवार व मंगळवार
                 </p>
               </div>
             </div>
